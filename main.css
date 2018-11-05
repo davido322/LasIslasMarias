@@ -4,6 +4,24 @@ h1 {
 h2 {
   color: white;
   text-align: center;}
+  body>header>nav>ul {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      list-style-type: none;
+  }
+  body>header { text-align: center; }
+  body>header>nav>ul>li:hover { background-color: MidnightBlue; }
+  body>header>nav>ul>li:active { background-color: Blue; }
+  body>header>nav>ul>li { display: inline-block; }
+  body>header>nav>ul>li>a {
+      display: block;
+      padding: 1em;
+      color: White;
+      text-decoration: none;
+  }
+  body>main { padding: 1em; }
+
 body {
   font-family: sans-serif;
   background-color: black; }
@@ -18,3 +36,4 @@ h3{
   text-align: center;
   color: white;
 }
+dl{color: white;}
